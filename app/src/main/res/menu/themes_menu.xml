@@ -1,0 +1,15 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="com.sartainstudios.contacts.ContactsView">
+
+<item
+    android:id="@+id/gray"
+    android:title="@string/gray"/>
+
+<item
+    android:id="@+id/colorful"
+    android:title="@string/colorful"/>
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tareq.tasks2do">
+
+    <uses-sdk android:minSdkVersion="14" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tasks2do"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/tasks2do_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddTaskActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.addActivity" />  //required
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TasksViewer" >
+            <intent-filter>
+                <action android:name="android.intent.action.TasksViewer" />  //required
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <!--<activity-->
+            <!--android:name=".CollegeTasksViewer" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.tasksViewer" />  //required-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity android:name=".WorkTasksViewer" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.tasksViewer" />  //required-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".OthersTasksViewer" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.TaskViewer$OthersTasksViewer" />  //required-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".AllTasksViewer" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.tasksViewer" />  //required-->
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+        <activity
+            android:name=".DisplayTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.DisplayTask" />  //required
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tasks2Do</string>
+    <string name="all">All Tasks</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="college">College</string>
+    <string name="others">Others</string>
+    <string name="add">add</string>
+    <string name="title_task_viewer">List of tasks from:</string>
+
+
+    <string name="category">Category</string>
+    <string name="country_prompt">Choose a Category</string>
+    <string name="languages">Languages</string>
+    <string name="setting">Setting</string>
+    <string name="english" >English</string>
+    <string name="hebrew">Hebrew</string>
+    <string name="arabic">Arabic</string>
+    <string name="gray">Gray</string>
+    <string name="colorful">Colorful</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="themes">Themes</string>
+    <string name="addNewTask">ADD NEW TASK</string>
+    <string name="taskName">Task Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="duration">Duration (in hours)</string>
+    <string name="selectACategory">Select a Category</string>
+    <string name="description">Description</string>
+    <string name="submit">submit</string>
+    <string name="displayAndEditTask">Display and Edit Task</string>
+    <string name="EditTaskDetails">Edit Task Details</string>
+    <string name="displayTaskDetails">Display Task Details</string>
+    <string name="paused">paused </string>
+    <string name="processed">processed</string>
+    <string name="finish">Finish</string>
+    <string name="edit">Edit</string>
+    <string name="ok">Ok</string>
+    <string name="alert">Alert</string>
+    <string name="finish_alert_title">First You have to pause the task !</string>
+    <string name="update">Update</string>
+    <string name="task_Name_Must_Not_Be_Empty">Task Name: must not be empty</string>
+    <string name="task_Name_Must_Start_With_A_Letter">Task Name: must start with a letter</string>
+    <string name="Task_Description_Must_Not_Be_Empty">Task description: must not be empty</string>
+    <string name="Task_Description_Must_Start_With_A_Letter">Task description: must start with a letter</string>
+    <string name="Date_must_not_be_empty">Date: must not be empty</string>
+    <string name="Date_must_not_be_expired">Date: must not be expired</string>
+    <string name="Time_must_not_be_empty">Time: must not be empty</string>
+    <string name="Duration_must_not_be_empty">Duration: must not be empty</string>
+    <string name="Duration_be_numbers_only">Duration: be numbers only</string>
+    <string name="creating">Creating</string>
+    <string name="please_wait">please wait...</string>
+    <string name="saving">Saving</string>
+    <string name="loading">Loading</string>
+    <string name="There_are_no_contents_in_this_list">There are no contents in this list!</string>
+    <string name="Task_was_updated_successfully">Task was updated successfully</string>
+    <string name="not_achieved_task_alert_title">The task was not handled ever.. you can delete it on list of tasks if you want to .</string>
+
+    <string name="Task_achieved_before_time">Task achieved before the expected time</string>
+    <string name="Task_achieved_with_delay">Task achieved with delay:</string>
+    <string name="open">Open</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alert_title">Delete task</string>
+    <string name="delete_alert_text">Are you sure to delete ?</string>
+    <string name="hours">hours</string>
+    <string name="minutes">minutes</string>
+    <string name="days">days</string>
+
+    <string-array name="Category_arrays">
+            <item>Choose a Category</item>
+            <item>Home</item>
+            <item>Work</item>
+            <item>College</item>
+            <item>Others</item>
+        </string-array>
+
+
+</resources>

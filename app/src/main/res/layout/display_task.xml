@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingBottom="0dp">
+
+    <TextView
+        android:id="@+id/title_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/displayAndEditTask"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/displayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/name_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/taskName"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/date_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/date" />
+
+    <EditText
+        android:id="@+id/time_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/time"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/duration_display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/duration"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/category_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/Category_arrays"
+        android:prompt="@string/country_prompt"
+        android:text="@string/selectACategory" />
+
+    <EditText
+        android:id="@+id/description_display"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:breakStrategy="balanced"
+        android:fitsSystemWindows="true"
+        android:gravity="top"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/playPause"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textOff="@string/paused"
+            android:textOn="@string/processed" />
+
+        <Button
+            android:id="@+id/finish"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onFinish"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/finish"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:onClick="onEdit"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/edit"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:onClick="onUpdate"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="@string/update"
+        tools:ignore="OnClick" />
+</LinearLayout>
+</ScrollView>

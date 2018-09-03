@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tasks2Do</string>
+    <string name="all">כל המשימות</string>
+    <string name="home">בית</string>
+    <string name="work">עבודה</string>
+    <string name="college">מכללה</string>
+    <string name="others">אחר</string>
+    <string name="add">הוספה</string>
+    <string name="title_task_viewer">  רשימת המשימות מ-: </string>
+
+
+    <string name="category">קטגוריה</string>
+    <string name="country_prompt">בחר קטגוריה</string>
+    <string name="languages">שפות</string>
+    <string name="setting">הגדרות</string>
+    <string name="english" >אנגלית</string>
+    <string name="hebrew">עברית</string>
+    <string name="arabic">ערבית</string>
+    <string name="gray">אפור</string>
+    <string name="colorful">צבעוני</string>
+    <string name="cancel">ביטול</string>
+    <string name="save">שמור</string>
+    <string name="themes">ערכת נושא</string>
+    <string name="addNewTask">הוספת משימה חדשה</string>
+    <string name="taskName">שם המשימה</string>
+    <string name="date">תאריך</string>
+    <string name="time">זמן</string>
+    <string name="duration">משך (שעות)</string>
+    <string name="selectACategory">בחר קטגוריה</string>
+    <string name="description">תיאור</string>
+    <string name="submit">יצירה</string>
+    <string name="displayAndEditTask">הצגת ועריכת משימה</string>
+    <string name="EditTaskDetails">הצגת נתוני משימה</string>
+    <string name="displayTaskDetails">הצגת נתוני משימה</string>
+    <string name="paused">מושהה</string>
+    <string name="processed">מתבצע</string>
+    <string name="finish">סיום</string>
+    <string name="edit">עריכה</string>
+    <string name="ok">אישןר</string>
+    <string name="alert">התראה</string>
+    <string name="finish_alert_title">קודם צריך להשהות את המשימה</string>
+    <string name="update">עדכון</string>
+    <string name="task_Name_Must_Not_Be_Empty">שם משימה לא צריך להיות ריק</string>
+    <string name="task_Name_Must_Start_With_A_Letter">שם משימה צריך להתחיל באות</string>
+    <string name="Task_Description_Must_Not_Be_Empty">תיאור משימה לא צריך להיות ריק</string>
+    <string name="Task_Description_Must_Start_With_A_Letter">תיאור משימה צריך להתחיל באות</string>
+    <string name="Date_must_not_be_empty">תאריך לא צריך להיות ריק</string>
+    <string name="Date_must_not_be_expired">תאריך פג תוקף</string>
+    <string name="Time_must_not_be_empty">זמן לא צריך להיות ריק</string>
+    <string name="Duration_must_not_be_empty">משך לא צריך להיות ריק</string>
+    <string name="Duration_be_numbers_only">משך צריך להכיל רק מספרים</string>
+    <string name="creating">מייצר</string>
+    <string name="please_wait">נא המתן</string>
+    <string name="saving">שומר</string>
+    <string name="loading">טוען</string>
+    <string name="There_are_no_contents_in_this_list">הרשימה ריקה</string>
+    <string name="Task_was_updated_successfully">המשימה עודכנה בהצלחה</string>
+    <string name="not_achieved_task_alert_title">המשיצה לא טופלה בכלל .. אתה יכול למחוק את המשימה מרשימת המשימות אם תרצה</string>
+
+    <string name="Task_achieved_before_time"> המשימה בוצעה לפני הזמן ב- :</string>
+    <string name="Task_achieved_with_delay">המשימה בוצעה באיחור:</string>
+    <string name="open">פתח</string>
+    <string name="delete">מחק</string>
+    <string name="delete_alert_title">מחיקת משימה</string>
+    <string name="delete_alert_text">אתה בטוח למחוק משימה זו ?</string>
+    <string name="hours">שעות</string>
+    <string name="minutes">דקות</string>
+    <string name="days">ימים</string>
+
+    <string-array name="Category_arrays">
+        <item>בחר קטגוריה</item>
+        <item>בית</item>
+        <item>עבודה</item>
+        <item>מכללה</item>
+        <item>אחר</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tasks2Do</string>
+    <string name="all">جميع المهمات</string>
+    <string name="home">البيت</string>
+    <string name="work">العمل</string>
+    <string name="college">الكلية</string>
+    <string name="others">اخرى</string>
+    <string name="add">اضافة</string>
+    <string name="title_task_viewer">  قائمة المهمات من :</string>
+
+
+    <string name="category">الفئة</string>
+        <string name="country_prompt">اختر لغة</string>
+    <string name="languages">لغات</string>
+    <string name="setting">خيارات</string>
+    <string name="english" >انجليزية</string>
+    <string name="hebrew">عبرية</string>
+    <string name="arabic">عربية</string>
+    <string name="gray">رمادي</string>
+    <string name="colorful">ملون</string>
+    <string name="cancel">الغاء</string>
+    <string name="save">حفظ</string>
+    <string name="themes">واجهات</string>
+    <string name="addNewTask">اضافة مهمة جديدة</string>
+    <string name="taskName">اسم المهمة</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="duration">المدة (ساعات)</string>
+    <string name="selectACategory">اختر فئة</string>
+    <string name="description">التفاصيل</string>
+    <string name="submit">انشاء</string>
+    <string name="displayAndEditTask">عرض وتحرير المهمة</string>
+    <string name="EditTaskDetails">تعديل تفاصيل المهمة</string>
+    <string name="displayTaskDetails">عرض تفاصيل المهمة</string>
+    <string name="paused">متوقف</string>
+    <string name="processed">يتم المعالجة</string>
+    <string name="finish">انهاء</string>
+    <string name="edit">تحرير</string>
+    <string name="update">تحديث</string>
+    <string name="task_Name_Must_Not_Be_Empty">اسم المهمة يجب ان لا يكون فارغ</string>
+    <string name="task_Name_Must_Start_With_A_Letter">اسم المهمة يجب ان يبدأ بحرف</string>
+    <string name="Task_Description_Must_Not_Be_Empty">تفاصيل المهمة يجب ان لا يكون فارغ</string>
+    <string name="Task_Description_Must_Start_With_A_Letter">تفاصيل المهمة يجب ان يبدأ بحرف</string>
+    <string name="Date_must_not_be_empty">التاريخ لا يجب ان يكون فارغ</string>
+    <string name="Date_must_not_be_expired">التاريخ قديم</string>
+    <string name="Time_must_not_be_empty">الوقت يجب ان لا يكون فارغ</string>
+    <string name="Duration_must_not_be_empty">المدة لا يجب ان يكون فارغ</string>
+    <string name="Duration_be_numbers_only">المدة يجب ان يتكون من ارقام فقط</string>
+    <string name="creating">جاري الانشاء</string>
+    <string name="please_wait">الرجاء الانتظار</string>
+    <string name="saving">جاري الحفظ</string>
+    <string name="loading">جاري التحميل</string>
+    <string name="ok">موافق</string>
+    <string name="alert">تنبيه</string>
+    <string name="finish_alert_title">عليك توقيف المهمة اولا !</string>
+    <string name="not_achieved_task_alert_title">المهمة لم تعالج ابدا ..يمكنك حذف المهمة من قائمة المهام في حال اردت ذلك !</string>
+    <string name="There_are_no_contents_in_this_list">القائمة فارغة</string>
+    <string name="Task_was_updated_successfully">تم تحديث المهمة بنجاح</string>
+
+    <string name="Task_achieved_before_time"> المهمة انجزت قبل الوقت المحدد بـ:</string>
+    <string name="Task_achieved_with_delay">المهمة انجزت بتأخير :</string>
+    <string name="open">فتح</string>
+    <string name="hours">ساعات</string>
+    <string name="minutes">دقائق</string>
+    <string name="days">أيام</string>
+    <string name="delete">حذف</string>
+    <string name="delete_alert_title">حذف المهمة</string>
+    <string name="delete_alert_text">هل انت متأكد من حذف هذه المهمة ؟</string>
+
+
+    <string-array name="Category_arrays">
+            <item>اختر فئة</item>
+            <item>البيت</item>
+            <item>العمل</item>
+            <item>الكلية</item>
+            <item>اخرى</item>
+        </string-array>
+
+
+</resources>
