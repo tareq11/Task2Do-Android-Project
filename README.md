@@ -8,3 +8,5 @@ work tasks, daily arrangements, housework (studies), and any possible tasks that
 Today there are applications that provide writing and deleting tasks and store the information
 Based on internal information.
 In the "Procrastination assistant" application all tasks are stored in an internal database, after the task is stored in the repository by name and date.
+
+https://www.youtube.com/watch?v=D9oOZ59wjck&t=20s
